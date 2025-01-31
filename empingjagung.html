@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Emping Jagung| Desa Palas Pasemah</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- Favicon -->
+    <link href="images\249 LOGO 01.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="css/all.css" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/leaflet.css" crossorigin="" />
+
+    <script src="js/leaflet.js" crossorigin=""></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css4/style.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css2/style.css" rel="stylesheet" />
+
+    <!-- animate AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- BACKGROUND -->
+    <style>
+      body {
+        background-image: url("images/Background.png"); /* Ganti dengan path gambar Anda */
+        background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+        background-position: center; /* Mengatur posisi gambar di tengah */
+        background-repeat: no-repeat; /* Mencegah gambar diulang */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 animate__animated animate__fadeInDown"
+      >
+        <a href="/" class="navbar-brand p-0 logo">
+          <img
+            class="img-fluid"
+            src="images/logo249s.png"
+            alt="Logo Desa Adat"
+            style="width: 250px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="sejarah.html" class="nav-item nav-link">Sejarah</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Hasil Alam Setempat</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="Padi.html" class="dropdown-item">Padi</a>
+                <a href="Jagung.html" class="dropdown-item">Jagung</a>
+                <a href="HasilKebun.html" class="dropdown-item">Hasil Kebun</a>
+                <a href="Kates.html" class="dropdown-item">Kates</a>
+                <a href="Perikanan.html" class="dropdown-item">Perikanan</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                data-bs-toggle="dropdown"
+                >Informasi Desa</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="Acara.html" class="dropdown-item">Acara</a>
+                <a href="UMKM.html" class="dropdown-item">UMKM</a>
+                <a href="WisataDesa.html" class="dropdown-item"
+                  >Wisata & Budaya</a
+                >
+                <a href="galeri2.html" class="dropdown-item">Galeri Desa</a>
+              </div>
+            </div>
+            <a href="Berita.html" class="nav-item nav-link">Berita</a>
+            <a href="https://wa.me/6282375919175/" class="nav-item nav-link"
+              >Kontak</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <div class="container-fluid position-relative py-4">
+      <!-- Potensi Start -->
+      <div class="container-xxl contact py-5">
+        <div class="container">
+          <h1 class="text-center mb-5 animate__animated animate__fadeInUp">
+            Emping Jagung Pasemah
+          </h1>
+          <!-- Carousel Start -->
+          <div class="container-fluid px-0 mb-5">
+            <div
+              id="header-carousel"
+              class="carousel slide carousel-fade m-auto col-lg-8"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="w-75 d-block mx-auto"
+                    src="images/empingjagung1.jpg"
+                    alt="Image Potensi Desa"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="w-75 d-block mx-auto"
+                    src="images/empingjagung2.jpg"
+                    alt="Image Potensi Desa"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="w-75 d-block mx-auto"
+                    src="images/empingjagung3.jpg"
+                    alt="Image Potensi Desa"
+                  />
+                </div>
+              </div>
+
+              <button
+                class="detail carousel-control-prev detail ms-2"
+                type="button"
+                data-bs-target="#header-carousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="detail carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="detail carousel-control-next detail me-2"
+                type="button"
+                data-bs-target="#header-carousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="detail carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- Carousel End -->
+
+          <ul
+            class="post-info d-flex list-unstyled align-items-center flex-wrap"
+          >
+            <li class="pe-lg-4 pe-3 mb-2 mb-lg-0">
+              <i class="bi bi-list me-1"></i>Informasi
+            </li>
+
+            <li class="pe-lg-4 pe-3 mb-2 mb-lg-0">
+              <a href="#" class="text-warning">
+                Desa Palas Pasemah, Lampung Selatan.
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text-justify"></p>
+
+          <h2 style="text-align: justify">
+            UMKM Desa Palas Pasemah: Pilar Ekonomi Lokal
+          </h2>
+          <p style="text-align: justify">
+            Di tengah keindahan alam Desa Palas Pasemah, Lampung Selatan,
+            terdapat sebuah usaha mikro, kecil, dan menengah (UMKM) yang menjadi
+            kebanggaan masyarakat setempat: produksi emping jagung. Usaha ini
+            tidak hanya memberikan sumber pendapatan bagi para pelaku usaha,
+            tetapi juga melestarikan tradisi kuliner yang telah ada sejak lama.
+          </p>
+
+          <h2 style="text-align: justify">Asal Usul dan Proses Produksi</h2>
+          <p style="text-align: justify">
+            Emping jagung merupakan camilan khas yang terbuat dari jagung
+            berkualitas tinggi yang ditanam di kebun-kebun subur di sekitar
+            desa. Proses pembuatan emping dimulai dengan pemilihan jagung yang
+            matang dan segar. Setelah jagung dipanen, biji-bijinya dipisahkan
+            dan direbus hingga empuk. Selanjutnya, biji jagung yang telah
+            direbus ditumbuk hingga pipih dan kemudian digoreng hingga renyah.
+            Para pengrajin emping di Desa Palas Pasemah mengutamakan kualitas
+            dan cita rasa dalam setiap tahap produksi. Mereka menggunakan resep
+            tradisional yang telah diwariskan dari generasi ke generasi,
+            sehingga menghasilkan emping jagung yang renyah dan lezat. Setiap
+            gigitan emping jagung ini memberikan sensasi rasa manis dan gurih
+            yang membuatnya menjadi camilan favorit di kalangan masyarakat.
+          </p>
+
+          <h2 style="text-align: justify">Dampak Ekonomi dan Sosial</h2>
+          <p style="text-align: justify">
+            UMKM emping jagung di Desa Palas Pasemah tidak hanya memberikan
+            manfaat ekonomi bagi para pengrajin, tetapi juga menciptakan
+            lapangan kerja bagi warga desa. Banyak ibu rumah tangga yang
+            terlibat dalam proses produksi, sehingga mereka dapat membantu
+            perekonomian keluarga sambil tetap menjalankan tugas sehari-hari di
+            rumah. Selain itu, usaha ini juga memperkuat ikatan sosial di antara
+            warga desa. Para pengrajin sering berkumpul untuk berbagi pengalaman
+            dan teknik dalam pembuatan emping, menciptakan suasana kebersamaan
+            yang hangat. Kegiatan ini tidak hanya meningkatkan keterampilan
+            mereka, tetapi juga mempererat hubungan antarwarga.
+          </p>
+
+          <h2 style="text-align: justify">Pemasaran dan Pengenalan Produk</h2>
+          <p style="text-align: justify">
+            Emping jagung dari Desa Palas Pasemah telah mulai dikenal di pasar
+            lokal dan sekitarnya. Para pengrajin aktif memasarkan produk mereka
+            di pasar tradisional, serta melalui media sosial untuk menjangkau
+            konsumen yang lebih luas. Dengan kemasan yang menarik dan promosi
+            yang kreatif, emping jagung ini berhasil menarik perhatian banyak
+            orang. Kegiatan pemasaran ini tidak hanya meningkatkan penjualan,
+            tetapi juga memperkenalkan keunikan kuliner Desa Palas Pasemah
+            kepada masyarakat luar. Dengan demikian, UMKM emping jagung tidak
+            hanya berfungsi sebagai sumber pendapatan, tetapi juga sebagai duta
+            budaya yang memperkenalkan tradisi dan cita rasa lokal.
+          </p>
+
+          <h2 style="text-align: justify">Kesimpulan</h2>
+          <p style="text-align: justify">
+            UMKM emping jagung di Desa Palas Pasemah merupakan contoh nyata dari
+            kreativitas dan semangat kewirausahaan masyarakat. Melalui usaha
+            ini, mereka tidak hanya menciptakan produk yang lezat dan
+            berkualitas, tetapi juga memperkuat ekonomi lokal dan menjaga
+            tradisi kuliner yang telah ada. Dengan dukungan dan partisipasi
+            aktif dari masyarakat, emping jagung Desa Palas Pasemah akan terus
+            berkembang dan menjadi kebanggaan yang dapat dinikmati oleh banyak
+            orang.
+          </p>
+
+          <p></p>
+        </div>
+      </div>
+      <!-- Potensi Start -->
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6">
+            <div class="footer-item d-flex flex-column">
+              <div class="mb-4" data-aos="fade-down">
+                <img
+                  src="images/249 LOGO 01.png"
+                  alt="Maxwell Logo"
+                  style="width: 80px; margin-bottom: 15px"
+                />
+                <h3 class="text-white" data-aos="fade-down">
+                  Desa Palas Pasemah
+                </h3>
+                <p class="text-white" data-aos="fade-down">
+                  Desa Palas Pasemah di Lampung Selatan menawarkan pesona budaya
+                  yang unik dengan kearifan lokal yang terus dijaga oleh
+                  masyarakatnya secara turun-temurun.
+                </p>
+              </div>
+
+              <a href="" data-aos="fade-down"
+                ><i class="fas fa-home me-2"></i>Jl. Raya Palas Sukaraja, Palas
+                Pasemah, Kec. Palas, Kabupaten Lampung Selatan, Lampung 35594</a
+              >
+
+              <a href="#" data-aos="fade-down"
+                ><i class="fas fa-envelope me-2"></i
+                >desapalaspasemah123@gmail.com</a
+              >
+              <a href="https://wa.me/6282375919175/" data-aos="fade-down"
+                ><i class="fas fa-phone me-2"></i> 082375919175</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="footer-item d-flex flex-column align-items-center">
+              <h4 class="text-white mb-4" data-aos="fade-down">Follow Us</h4>
+              <div class="d-flex gap-3" data-aos="fade-down">
+                <!-- Tombol YouTube -->
+                <a
+                  href="https://youtube.com/@desapalaspasemah?si=w1Iij5_SQwyeBouD"
+                  target="_blank"
+                  class="btn btn-social btn-youtube"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <!-- Tombol Instagram -->
+                <a
+                  href="https://www.instagram.com/desapalaspasemah/"
+                  target="_blank"
+                  class="btn btn-social btn-instagram"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <!-- Tombol TikTok -->
+                <a
+                  href="https://www.tiktok.com/@desapalas.pasemah?_t=ZS-8tSnr5uEFm6&_r=1"
+                  target="_blank"
+                  class="btn btn-social btn-tiktok"
+                >
+                  <i class="fab fa-tiktok"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            © <a class="fw-medium" href="/">KKN PPM ITERA KELOMPOK 249 2025</a>,
+            All Right Reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js4/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        var $videoSrc;
+        $(".btn-play").click(function () {
+          $videoSrc = $(this).data("src");
+        });
+
+        $("#videoModal").on("shown.bs.modal", function (e) {
+          $("#video").attr(
+            "src",
+            $videoSrc + "?autoplay=1&modestbranding=1&showinfo=0"
+          );
+        });
+
+        $("#videoModal").on("hide.bs.modal", function (e) {
+          $("#video").attr("src", "");
+        });
+      });
+    </script>
+  </body>
+</html>

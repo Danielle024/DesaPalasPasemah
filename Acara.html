@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Acara | Desa Palas Pasemah</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <!-- Favicon -->
+    <link href="images\249 LOGO 01.png" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="css/all.css" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/leaflet.css" crossorigin="" />
+
+    <script src="js/leaflet.js" crossorigin=""></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css2\style.css" rel="stylesheet" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <style>
+      body {
+        background-image: url("images/Background.png"); /* Ganti dengan path gambar Anda */
+        background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+        background-position: center; /* Mengatur posisi gambar di tengah */
+        background-repeat: no-repeat; /* Mencegah gambar diulang */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 animate__animated animate__fadeInDown"
+      >
+        <a href="/" class="navbar-brand p-0 logo">
+          <img
+            class="img-fluid"
+            src="images/logo249s.png"
+            alt="Logo Desa Adat"
+            style="width: 250px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="sejarah.html" class="nav-item nav-link">Sejarah</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Hasil Alam Setempat</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="Padi.html" class="dropdown-item">Padi</a>
+                <a href="Jagung.html" class="dropdown-item">Jagung</a>
+                <a href="HasilKebun.html" class="dropdown-item">Hasil Kebun</a>
+                <a href="Kates.html" class="dropdown-item">Kates</a>
+                <a href="Perikanan.html" class="dropdown-item">Perikanan</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                data-bs-toggle="dropdown"
+                >Informasi Desa</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="Acara.html" class="dropdown-item">Acara</a>
+                <a href="UMKM.html" class="dropdown-item">UMKM</a>
+                <a href="WisataDesa.html" class="dropdown-item"
+                  >Wisata & Budaya</a
+                >
+                <a href="galeri2.html" class="dropdown-item">Galeri Desa</a>
+              </div>
+            </div>
+            <a href="Berita.html" class="nav-item nav-link">Berita</a>
+            <a href="https://wa.me/6282375919175/" class="nav-item nav-link"
+              >Kontak</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+    <div class="container-fluid position-relative py-4">
+      <!-- Berita Start -->
+      <div class="container-xxl contact py-5 blog">
+        <div class="container">
+          <div class="mx-auto text-center mb-5" style="max-width: 900px">
+            <h1 class="mb-4 animate__animated animate__fadeInUp">
+              Acara Desa Palas Pasemah
+            </h1>
+            <p class="animate__animated animate__fadeInUp">
+              Berikut adalah beberapa acara yang sering diadakan di Desa Palas
+              Pasemah yang bisa Anda ikuti. Jangan lewatkan kesempatan untuk
+              ikut serta dalam acara-acara ini.
+            </p>
+          </div>
+
+          <div
+            class="row justify-content-center wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="col-lg-8 justify-content-center">
+              <form action="#" method="get">
+                <div class="row mb-10 justify-content-center"></div>
+              </form>
+            </div>
+            <div class="text-end my-3">
+              <span
+                class="badge rounded-pill py-2 px-4 bg-success"
+                style="font-size: 14px"
+                >Jumlah Acara: 5
+              </span>
+            </div>
+          </div>
+
+          <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="packages-item h-100 d-flex flex-column"
+                data-aos="zoom-in-down"
+              >
+                <div>
+                  <img
+                    src="images/arakan.png"
+                    class="img-fluid w-100 rounded-top"
+                    style="height: 300px; object-fit: cover"
+                    alt="Image"
+                  />
+                </div>
+                <div
+                  class="packages-content bg-light d-flex flex-column flex-grow-1"
+                >
+                  <div class="p-4 pb-0 flex-grow-1">
+                    <a href="AcaraKades.html" target="_blank">
+                      <h5 class="mb-0 text-uppercase">
+                        Arakan Pengangkatan Kepala Desa
+                      </h5>
+                    </a>
+                    <small class="text-uppercase"
+                      ><i class="fa fa-map-marker-alt text-primary pe-2"></i
+                      >Desa Palas Pasemah</small
+                    >
+                    <p class="mb-4 deskripsi">
+                      Acara arakan pengangkatan Kepala Desa Palas Pasemah
+                      merupakan momen penting yang diadakan untuk merayakan
+                      pelantikan pemimpin baru desa.
+                    </p>
+                  </div>
+                  <div
+                    class="row"
+                    style="
+                      background-color: #ffa500;
+                      border-radius: 0 0 0.25rem 0.25rem;
+                      margin: 0;
+                    "
+                  >
+                    <div class="col-12 text-start px-0">
+                      <a
+                        href="AcaraKades.html"
+                        target="_blank"
+                        class="btn-hover btn text-white py-2 px-4"
+                        >Kunjungi</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="packages-item h-100 d-flex flex-column"
+                data-aos="zoom-in-down"
+              >
+                <div>
+                  <img
+                    src="images/palasfest.png"
+                    class="img-fluid w-100 rounded-top"
+                    style="height: 300px; object-fit: cover"
+                    alt="Image"
+                  />
+                </div>
+                <div
+                  class="packages-content bg-light d-flex flex-column flex-grow-1"
+                >
+                  <div class="p-4 pb-0 flex-grow-1">
+                    <a href="PalasFair.html" target="_blank">
+                      <h5 class="mb-0 text-uppercase">Festival Palas</h5>
+                    </a>
+                    <small class="text-uppercase"
+                      ><i class="fa fa-map-marker-alt text-primary pe-2"></i
+                      >Desa Palas Pasemah</small
+                    >
+                    <p class="mb-4 deskripsi">
+                      Festival Palas adalah acara tahunan yang merayakan
+                      kekayaan budaya dan tradisi Kecamatan Palas, dihadiri oleh
+                      perwakilan dari berbagai desa.
+                    </p>
+                  </div>
+                  <div
+                    class="row"
+                    style="
+                      background-color: #ffa500;
+                      border-radius: 0 0 0.25rem 0.25rem;
+                      margin: 0;
+                    "
+                  >
+                    <div class="col-12 text-start px-0">
+                      <a
+                        href="PalasFair.html"
+                        target="_blank"
+                        class="btn-hover btn text-white py-2 px-4"
+                        >Kunjungi</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="packages-item h-100 d-flex flex-column"
+                data-aos="zoom-in-down"
+              >
+                <div>
+                  <img
+                    src="images/tanam.png"
+                    class="img-fluid w-100 rounded-top"
+                    style="height: 300px; object-fit: cover"
+                    alt="Image"
+                  />
+                </div>
+                <div
+                  class="packages-content bg-light d-flex flex-column flex-grow-1"
+                >
+                  <div class="p-4 pb-0 flex-grow-1">
+                    <a href="TanamPadi.html" target="_blank">
+                      <h5 class="mb-0 text-uppercase">Musim Tanam Padi Desa</h5>
+                    </a>
+                    <small class="text-uppercase"
+                      ><i class="fa fa-map-marker-alt text-primary pe-2"></i
+                      >Desa Palas Pasemah</small
+                    >
+                    <p class="mb-4 deskripsi">
+                      Acara Musim Tanam Padi Desa adalah perayaan tahunan yang
+                      menandai dimulainya musim tanam padi di desa.
+                    </p>
+                  </div>
+                  <div
+                    class="row"
+                    style="
+                      background-color: #ffa500;
+                      border-radius: 0 0 0.25rem 0.25rem;
+                      margin: 0;
+                    "
+                  >
+                    <div class="col-12 text-start px-0">
+                      <a
+                        href="TanamPadi.html"
+                        target="_blank"
+                        class="btn-hover btn text-white py-2 px-4"
+                        >Kunjungi</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="packages-item h-100 d-flex flex-column"
+                data-aos="zoom-in-down"
+              >
+                <div>
+                  <img
+                    src="images/ikan2.jpg"
+                    class="img-fluid w-100 rounded-top"
+                    style="height: 300px; object-fit: cover"
+                    alt="Image"
+                  />
+                </div>
+                <div
+                  class="packages-content bg-light d-flex flex-column flex-grow-1"
+                >
+                  <div class="p-4 pb-0 flex-grow-1">
+                    <a href="nangkepikan.html" target="_blank">
+                      <h5 class="mb-0 text-uppercase">
+                        Penangkapan Ikan di Kleb atau bendungan
+                      </h5>
+                    </a>
+                    <small class="text-uppercase"
+                      ><i class="fa fa-map-marker-alt text-primary pe-2"></i
+                      >Desa Palas Pasemah</small
+                    >
+                    <p class="mb-4 deskripsi">
+                      Acara Penangkapan Ikan di Kleb atau bendungan adalah
+                      tradisi yang diadakan oleh masyarakat setempat untuk
+                      merayakan hasil tangkapan ikan yang melimpah.
+                    </p>
+                  </div>
+                  <div
+                    class="row"
+                    style="
+                      background-color: #ffa500;
+                      border-radius: 0 0 0.25rem 0.25rem;
+                      margin: 0;
+                    "
+                  >
+                    <div class="col-12 text-start px-0">
+                      <a
+                        href="nangkepikan.html"
+                        target="_blank"
+                        class="btn-hover btn text-white py-2 px-4"
+                        >Kunjungi</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="packages-item h-100 d-flex flex-column"
+                data-aos="zoom-in-down"
+              >
+                <div>
+                  <img
+                    src="images/hutri.jpg"
+                    class="img-fluid w-100 rounded-top"
+                    style="height: 300px; object-fit: cover"
+                    alt="Image"
+                  />
+                </div>
+                <div
+                  class="packages-content bg-light d-flex flex-column flex-grow-1"
+                >
+                  <div class="p-4 pb-0 flex-grow-1">
+                    <a href="HUTRI.html" target="_blank">
+                      <h5 class="mb-0 text-uppercase">
+                        Festival Hut RI 17 Agustus-an
+                      </h5>
+                    </a>
+                    <small class="text-uppercase"
+                      ><i class="fa fa-map-marker-alt text-primary pe-2"></i
+                      >Desa Palas Pasemah</small
+                    >
+                    <p class="mb-4 deskripsi">
+                      Festival HUT RI 17 Agustus-an adalah perayaan tahunan yang
+                      diadakan untuk memperingati Hari Kemerdekaan Republik
+                      Indonesia.
+                    </p>
+                  </div>
+                  <div
+                    class="row"
+                    style="
+                      background-color: #ffa500;
+                      border-radius: 0 0 0.25rem 0.25rem;
+                      margin: 0;
+                    "
+                  >
+                    <div class="col-12 text-start px-0">
+                      <a
+                        href="HUTRI.html"
+                        target="_blank"
+                        class="btn-hover btn text-white py-2 px-4"
+                        >Kunjungi</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Berita End -->
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6">
+            <div class="footer-item d-flex flex-column">
+              <div class="mb-4" data-aos="fade-down">
+                <img
+                  src="images/249 LOGO 01.png"
+                  alt="Maxwell Logo"
+                  style="width: 80px; margin-bottom: 15px"
+                />
+                <h3 class="text-white" data-aos="fade-down">
+                  Desa Palas Pasemah
+                </h3>
+                <p class="text-white" data-aos="fade-down">
+                  Desa Palas Pasemah di Lampung Selatan menawarkan pesona budaya
+                  yang unik dengan kearifan lokal yang terus dijaga oleh
+                  masyarakatnya secara turun-temurun.
+                </p>
+              </div>
+
+              <a href="" data-aos="fade-down"
+                ><i class="fas fa-home me-2"></i>Jl. Raya Palas Sukaraja, Palas
+                Pasemah, Kec. Palas, Kabupaten Lampung Selatan, Lampung 35594</a
+              >
+
+              <a href="#" data-aos="fade-down"
+                ><i class="fas fa-envelope me-2"></i
+                >desapalaspasemah123@gmail.com</a
+              >
+              <a href="https://wa.me/6282375919175/" data-aos="fade-down"
+                ><i class="fas fa-phone me-2"></i> 082375919175</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="footer-item d-flex flex-column align-items-center">
+              <h4 class="text-white mb-4" data-aos="fade-down">Follow Us</h4>
+              <div class="d-flex gap-3" data-aos="fade-down">
+                <!-- Tombol YouTube -->
+                <a
+                  href="https://youtube.com/@desapalaspasemah?si=w1Iij5_SQwyeBouD"
+                  target="_blank"
+                  class="btn btn-social btn-youtube"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <!-- Tombol Instagram -->
+                <a
+                  href="https://www.instagram.com/desapalaspasemah/"
+                  target="_blank"
+                  class="btn btn-social btn-instagram"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <!-- Tombol TikTok -->
+                <a
+                  href="https://www.tiktok.com/@desapalas.pasemah?_t=ZS-8tSnr5uEFm6&_r=1"
+                  target="_blank"
+                  class="btn btn-social btn-tiktok"
+                >
+                  <i class="fab fa-tiktok"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            © <a class="fw-medium" href="/">KKN PPM ITERA KELOMPOK 249 2025</a>,
+            All Right Reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="js3\jquery.min.js"></script>
+    <script src="js3\bootstrap.bundle.min.js"></script>
+    <script src="js3\easing.min.js"></script>
+    <script src="js3\waypoints.min.js"></script>
+    <script src="js3\owl.carousel.min.js"></script>
+    <script src="js3\lightbox.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js3\main.js"></script>
+    <script>
+      $(document).ready(function () {
+        var $videoSrc;
+        $(".btn-play").click(function () {
+          $videoSrc = $(this).data("src");
+        });
+
+        $("#videoModal").on("shown.bs.modal", function (e) {
+          $("#video").attr(
+            "src",
+            $videoSrc + "?autoplay=1&modestbranding=1&showinfo=0"
+          );
+        });
+
+        $("#videoModal").on("hide.bs.modal", function (e) {
+          $("#video").attr("src", "");
+        });
+      });
+    </script>
+  </body>
+</html>
